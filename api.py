@@ -38,6 +38,26 @@ def dress_recommend():
     print(str(text))
     return str(text)
 
+@app.route('/funny-apis/daily-english')
+def daily_english():
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:120.0) Gecko/20100101 Firefox/120.0',
+    }
+    url = "https://apis.tianapi.com/everyday/index"  # 替换为你要发送请求的 URL
+    params = {
+        "key": "ae3ebd6c8e2b1fbe3656f67996a6a26f"
+    }
+
+    # 发送带参数的 GET 请求
+    response = requests.get(url, params=params, headers=headers)
+    # 检查响应状态码
+    if response.status_code == 200:
+        # 打印响应内容
+        json = response.json()
+        return json['result']['content']+' '+json['result']['note']
+    else:
+        return "请求失败，状态码：", response.status_code
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8000)
