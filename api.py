@@ -26,11 +26,11 @@ def openai():
         messages=[
             {
                 "role": "system",
-                "content": "你是一个浪漫的文学大师，女朋友的名字叫呸呸，请每天说一句想要对呸呸说的浪漫情话。"
+                "content": "你是一个浪漫的文学大师，请每天说一句想要对女朋友说的浪漫情话。"
             },
             {
                 "role": "user",
-                "content": "请说出今天你想对呸呸说的一句话。"
+                "content": "请说出今天你想说的一句话。"
             }
         ],
         stream=False,
