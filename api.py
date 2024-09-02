@@ -9,8 +9,34 @@
 from flask import Flask, request, jsonify
 import requests
 from bs4 import BeautifulSoup
+from openai import OpenAI
 
 app = Flask(__name__)
+
+
+@app.route('/openai/romantic')
+def openai():
+    client = OpenAI(
+        api_key='WKRcLfITficWm',  # this is also the default, it can be omitted
+        base_url='https://ai.liaobots.work/v1'
+    )
+
+    response = client.chat.completions.create(
+        model="gpt-4o",
+        messages=[
+            {
+                "role": "system",
+                "content": "你是一个浪漫的文学大师，女朋友的名字叫呸呸，请每天说一句想要对呸呸说的浪漫情话。"
+            },
+            {
+                "role": "user",
+                "content": "请说出今天你想对呸呸说的一句话。"
+            }
+        ],
+        stream=False,
+    )
+
+    return response.choices[0].message.content
 
 
 @app.route('/dress-recommend')
