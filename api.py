@@ -13,7 +13,7 @@ from bs4 import BeautifulSoup
 app = Flask(__name__)
 
 
-@app.route('/funny-apis/dress-recommend')
+@app.route('/dress-recommend')
 def dress_recommend():
     headers = {
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:120.0) Gecko/20100101 Firefox/120.0',
@@ -42,7 +42,7 @@ def dress_recommend():
         return str(e), 500
 
 
-@app.route('/funny-apis/daily-english')
+@app.route('/daily-english')
 def daily_english():
     headers = {
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:120.0) Gecko/20100101 Firefox/120.0',
