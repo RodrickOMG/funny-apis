@@ -10,9 +10,11 @@ from flask import Flask, request, jsonify
 import requests
 from bs4 import BeautifulSoup
 from openai import OpenAI
+import time
+import random
+from datetime import datetime
 
 app = Flask(__name__)
-
 
 @app.route('/openai/romantic')
 def openai():
@@ -68,26 +70,40 @@ def dress_recommend():
         return str(e), 500
 
 
-@app.route('/daily-english')
-def daily_english():
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:120.0) Gecko/20100101 Firefox/120.0',
-    }
-    url = "https://apis.tianapi.com/everyday/index"
-    params = {
-        "key": "your_api_key_here"  # 使用环境变量管理API密钥
-    }
+@app.route('/cjzzd')
+def get_cjzzd_link():
+    target_title = "财经早知道"
+    base_url = "https://mappsv5.caixin.com/index_page_v5/index_page_{}.json"
+    page = 1
 
     try:
-        response = requests.get(url, params=params, headers=headers)
-        response.raise_for_status()
-        json_data = response.json()
-        return jsonify({
-            'content': json_data['result']['content'],
-            'note': json_data['result']['note']
-        })
+        while page <= 10:  # 限制最多查找10页
+            url = base_url.format(page)
+            headers = {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+            }
+            response = requests.get(url, headers=headers, timeout=10)
+            response.raise_for_status()
+
+            data = response.json()
+            items = data.get('data', {}).get('list', [])
+            for item in items:
+                if target_title in item.get('audio_title', ''):
+                    source_id = item.get('source_id', '')
+                    if source_id:
+                        today = datetime.now().strftime("%Y-%m-%d")
+                        url = f"https://finance.caixin.com/{today}/{source_id}.html"
+                        return url
+            
+            page += 1
+            time.sleep(random.uniform(1, 3))  # 添加随机延时,避免请求过于频繁
+
+        return jsonify({"error": "未找到目标标题"}), 404
+
     except requests.RequestException as e:
-        return str(e), 500
+        return jsonify({"error": f"请求失败: {str(e)}"}), 500
+    except Exception as e:
+        return jsonify({"error": f"处理失败: {str(e)}"}), 500
 
 
 if __name__ == '__main__':
