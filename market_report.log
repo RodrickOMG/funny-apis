@@ -274,3 +274,30 @@ TypeError: generate_chart() missing 3 required positional arguments: 'self', 'da
  * Running on http://127.0.0.1:18000
  * Running on http://172.20.10.2:18000
 2024-10-23 17:30:41,800 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-24 01:11:40,624 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://192.168.2.15:18000
+2024-10-24 01:11:40,624 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-24 01:33:33,998 - qcloud_cos.cos_client - INFO - generate built-in connection pool success. maxsize=10,10
+2024-10-24 01:33:33,998 - qcloud_cos.cos_client - INFO - bound built-in connection pool when new client. maxsize=10,10
+2024-10-24 01:33:40,669 - __main__ - ERROR - Error generating chart for SP500: [Errno 2] No such file or directory: 'market_report\\sp500_chart_20241024.png'
+2024-10-24 01:33:40,669 - __main__ - ERROR - Error in generate_market_report: [Errno 2] No such file or directory: 'market_report\\sp500_chart_20241024.png'
+2024-10-24 01:35:38,232 - qcloud_cos.cos_client - INFO - generate built-in connection pool success. maxsize=10,10
+2024-10-24 01:35:38,232 - qcloud_cos.cos_client - INFO - bound built-in connection pool when new client. maxsize=10,10
+2024-10-24 01:35:41,107 - qcloud_cos.cos_client - INFO - put object, url=:https://rodrick-1258087398.cos.ap-chongqing.myqcloud.com/market_report/sp500_chart_20241024.png ,headers=:{}
+2024-10-24 01:35:41,519 - qcloud_cos.cos_client - INFO - put object, url=:https://rodrick-1258087398.cos.ap-chongqing.myqcloud.com/market_report/nasdaq_chart_20241024.png ,headers=:{}
+2024-10-24 01:35:47,524 - httpx - INFO - HTTP Request: POST https://ai.liaobots.work/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-24 01:35:54,959 - httpx - INFO - HTTP Request: POST https://ai.liaobots.work/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-24 01:35:54,962 - __main__ - INFO - Report generated successfully: market_report_20241024.md
+2024-10-24 01:37:28,995 - httpx - INFO - HTTP Request: POST https://ai.liaobots.work/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-24 01:37:33,966 - httpx - INFO - HTTP Request: POST https://ai.liaobots.work/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-24 01:37:33,970 - werkzeug - INFO - 127.0.0.1 - - [24/Oct/2024 01:37:33] "GET /generate_market_report HTTP/1.1" 200 -
+2024-10-24 01:37:38,465 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://192.168.2.15:18000
+2024-10-24 01:37:38,465 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-24 01:37:38,558 - werkzeug - INFO - 127.0.0.1 - - [24/Oct/2024 01:37:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-24 01:38:19,849 - werkzeug - INFO - 127.0.0.1 - - [24/Oct/2024 01:38:19] "[33mGET /generate_market_report HTTP/1.1[0m" 404 -
+2024-10-24 01:38:26,560 - werkzeug - INFO - 127.0.0.1 - - [24/Oct/2024 01:38:26] "GET /get_market_report HTTP/1.1" 200 -
