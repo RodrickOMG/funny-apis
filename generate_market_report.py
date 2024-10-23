@@ -224,7 +224,7 @@ class MarketReport:
             sp500_analysis = self.get_market_analysis_from_gpt(sp500_data, "标普500指数")
             nasdaq_analysis = self.get_market_analysis_from_gpt(nasdaq_data, "纳斯达克100指数")
             
-            markdown = f"""# 市场简报 {today}
+            markdown = f"""# 市场简报
 
 ## 标普500指数分析
 ![SP500走势图]({sp500_chart_url})

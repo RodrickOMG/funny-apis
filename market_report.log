@@ -306,3 +306,14 @@ TypeError: generate_chart() missing 3 required positional arguments: 'self', 'da
 2024-10-24 02:04:58,400 - werkzeug - INFO - 192.168.2.20 - - [24/Oct/2024 02:04:58] "GET /get_market_report HTTP/1.1" 200 -
 2024-10-24 02:04:58,740 - werkzeug - INFO - 192.168.2.20 - - [24/Oct/2024 02:04:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
 2024-10-24 02:06:55,013 - werkzeug - INFO - 192.168.2.20 - - [24/Oct/2024 02:06:55] "GET /get_market_report HTTP/1.1" 200 -
+2024-10-24 02:22:05,430 - werkzeug - INFO - 192.168.2.20 - - [24/Oct/2024 02:22:05] "[33mGET /get_market_report HTTP/1.1[0m" 404 -
+2024-10-24 02:25:52,361 - werkzeug - INFO - 192.168.2.20 - - [24/Oct/2024 02:25:52] "[33mGET /get_market_report HTTP/1.1[0m" 404 -
+2024-10-24 02:26:22,954 - qcloud_cos.cos_client - INFO - generate built-in connection pool success. maxsize=10,10
+2024-10-24 02:26:22,954 - qcloud_cos.cos_client - INFO - bound built-in connection pool when new client. maxsize=10,10
+2024-10-24 02:26:25,804 - qcloud_cos.cos_client - INFO - put object, url=:https://rodrick-1258087398.cos.ap-chongqing.myqcloud.com/market_report/sp500_chart_20241024.png ,headers=:{}
+2024-10-24 02:26:27,670 - __main__ - INFO - Local file market_report\sp500_chart_20241024.png has been deleted after uploading to COS.
+2024-10-24 02:26:27,768 - qcloud_cos.cos_client - INFO - put object, url=:https://rodrick-1258087398.cos.ap-chongqing.myqcloud.com/market_report/nasdaq_chart_20241024.png ,headers=:{}
+2024-10-24 02:26:28,293 - __main__ - INFO - Local file market_report\nasdaq_chart_20241024.png has been deleted after uploading to COS.
+2024-10-24 02:26:33,659 - httpx - INFO - HTTP Request: POST https://ai.liaobots.work/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-24 02:26:39,245 - httpx - INFO - HTTP Request: POST https://ai.liaobots.work/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-24 02:26:39,248 - __main__ - INFO - Report generated successfully: market_report\market_report_20241024.md
