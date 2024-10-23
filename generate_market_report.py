@@ -166,6 +166,10 @@ class MarketReport:
                 Key=filename
             )
             
+            # 删除本地图片文件
+            os.remove(filepath)
+            logger.info(f"Local file {filepath} has been deleted after uploading to COS.")
+            
             return url
         
         except Exception as e:
@@ -252,7 +256,9 @@ class MarketReport:
     def save_report(self, markdown_content):
         """保存报告到文件"""
         try:
-            filename = f"market_report_{datetime.now().strftime('%Y%m%d')}.md"
+            # 创建 market_report 目录（如果不存在）
+            os.makedirs('market_report', exist_ok=True)
+            filename = f"market_report/market_report_{datetime.now().strftime('%Y%m%d')}.md"
             filepath = Path(filename)
             with open(filepath, "w", encoding="utf-8") as f:
                 f.write(markdown_content)

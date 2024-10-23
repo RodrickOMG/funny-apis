@@ -134,7 +134,7 @@ def get_market_report():
     """获取当天的市场报告"""
     try:
         today = datetime.now().strftime("%Y%m%d")
-        filename = f"market_report_{today}.md"
+        filename = f"market_report/market_report_{today}.md"
         
         if not os.path.exists(filename):
             return jsonify({
