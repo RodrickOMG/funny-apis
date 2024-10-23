@@ -1,0 +1,276 @@
+2024-10-23 15:13:02,626 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://172.20.10.2:18000
+2024-10-23 15:13:02,626 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-23 15:13:11,866 - yfinance - ERROR - ^GSPC: Period '7d' is invalid, must be one of ['1d', '5d', '1mo', '3mo', '6mo', '1y', '2y', '5y', '10y', 'ytd', 'max']
+2024-10-23 15:13:11,868 - __main__ - ERROR - Error fetching data for ^GSPC: No data retrieved for ^GSPC
+2024-10-23 15:13:11,868 - __main__ - ERROR - Error in generate_report endpoint: No data retrieved for ^GSPC
+2024-10-23 15:13:11,870 - werkzeug - INFO - 127.0.0.1 - - [23/Oct/2024 15:13:11] "[35m[1mGET /generate_report HTTP/1.1[0m" 500 -
+2024-10-23 15:19:15,668 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://172.20.10.2:18000
+2024-10-23 15:19:15,668 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-23 15:19:19,552 - __main__ - ERROR - Error generating chart for SP500: 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+
+2024-10-23 15:19:19,552 - __main__ - ERROR - Error in generate_report endpoint: 
+Image export using the "kaleido" engine requires the kaleido package,
+which can be installed using pip:
+    $ pip install -U kaleido
+
+2024-10-23 15:19:19,553 - werkzeug - INFO - 127.0.0.1 - - [23/Oct/2024 15:19:19] "[35m[1mGET /generate_report HTTP/1.1[0m" 500 -
+2024-10-23 15:20:27,567 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://172.20.10.2:18000
+2024-10-23 15:20:27,567 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-23 15:20:38,160 - werkzeug - INFO - 127.0.0.1 - - [23/Oct/2024 15:20:38] "GET /generate_report HTTP/1.1" 200 -
+2024-10-23 15:23:39,092 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://172.20.10.2:18000
+2024-10-23 15:23:39,093 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-23 15:23:42,854 - werkzeug - INFO - 127.0.0.1 - - [23/Oct/2024 15:23:42] "GET /generate_report HTTP/1.1" 200 -
+2024-10-23 15:24:59,981 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://172.20.10.2:18000
+2024-10-23 15:24:59,981 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-23 15:25:05,160 - werkzeug - INFO - 127.0.0.1 - - [23/Oct/2024 15:25:05] "GET /generate_report HTTP/1.1" 200 -
+2024-10-23 15:26:43,930 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://172.20.10.2:18000
+2024-10-23 15:26:43,930 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-23 15:26:50,912 - werkzeug - INFO - 127.0.0.1 - - [23/Oct/2024 15:26:50] "GET /generate_report HTTP/1.1" 200 -
+2024-10-23 15:31:58,714 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://172.20.10.2:18000
+2024-10-23 15:31:58,714 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-23 15:32:04,633 - werkzeug - INFO - 127.0.0.1 - - [23/Oct/2024 15:32:04] "GET /generate_report HTTP/1.1" 200 -
+2024-10-23 15:32:34,371 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://172.20.10.2:18000
+2024-10-23 15:32:34,371 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-23 15:32:38,559 - werkzeug - INFO - 127.0.0.1 - - [23/Oct/2024 15:32:38] "GET /generate_report HTTP/1.1" 200 -
+2024-10-23 15:35:11,811 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://172.20.10.2:18000
+2024-10-23 15:35:11,811 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-23 15:35:16,284 - werkzeug - INFO - 127.0.0.1 - - [23/Oct/2024 15:35:16] "GET /generate_report HTTP/1.1" 200 -
+2024-10-23 15:36:31,995 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://172.20.10.2:18000
+2024-10-23 15:36:31,996 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-23 15:36:37,035 - werkzeug - INFO - 127.0.0.1 - - [23/Oct/2024 15:36:37] "GET /generate_report HTTP/1.1" 200 -
+2024-10-23 15:37:58,185 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://172.20.10.2:18000
+2024-10-23 15:37:58,185 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-23 15:38:04,253 - werkzeug - INFO - 127.0.0.1 - - [23/Oct/2024 15:38:04] "GET /generate_report HTTP/1.1" 200 -
+2024-10-23 15:39:04,712 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://172.20.10.2:18000
+2024-10-23 15:39:04,712 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-23 15:39:10,216 - werkzeug - INFO - 127.0.0.1 - - [23/Oct/2024 15:39:10] "GET /generate_report HTTP/1.1" 200 -
+2024-10-23 15:40:49,507 - werkzeug - INFO - 127.0.0.1 - - [23/Oct/2024 15:40:49] "GET /generate_report HTTP/1.1" 200 -
+2024-10-23 15:40:55,442 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://172.20.10.2:18000
+2024-10-23 15:40:55,442 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-23 15:41:00,248 - werkzeug - INFO - 127.0.0.1 - - [23/Oct/2024 15:41:00] "GET /generate_report HTTP/1.1" 200 -
+2024-10-23 15:41:50,655 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://172.20.10.2:18000
+2024-10-23 15:41:50,655 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-23 15:41:55,108 - werkzeug - INFO - 127.0.0.1 - - [23/Oct/2024 15:41:55] "GET /generate_report HTTP/1.1" 200 -
+2024-10-23 15:45:40,495 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://172.20.10.2:18000
+2024-10-23 15:45:40,495 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-23 15:45:49,487 - werkzeug - INFO - 127.0.0.1 - - [23/Oct/2024 15:45:49] "GET /generate_report HTTP/1.1" 200 -
+2024-10-23 15:50:16,817 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://172.20.10.2:18000
+2024-10-23 15:50:16,817 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-23 15:50:22,493 - werkzeug - INFO - 127.0.0.1 - - [23/Oct/2024 15:50:22] "GET /generate_report HTTP/1.1" 200 -
+2024-10-23 15:53:38,637 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://172.20.10.2:18000
+2024-10-23 15:53:38,637 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-23 15:53:43,397 - werkzeug - INFO - 127.0.0.1 - - [23/Oct/2024 15:53:43] "GET /generate_report HTTP/1.1" 200 -
+2024-10-23 15:56:04,326 - werkzeug - INFO - 127.0.0.1 - - [23/Oct/2024 15:56:04] "GET /generate_report HTTP/1.1" 200 -
+2024-10-23 15:56:11,362 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://172.20.10.2:18000
+2024-10-23 15:56:11,362 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-23 15:56:16,423 - werkzeug - INFO - 127.0.0.1 - - [23/Oct/2024 15:56:16] "GET /generate_report HTTP/1.1" 200 -
+2024-10-23 15:57:14,141 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://172.20.10.2:18000
+2024-10-23 15:57:14,141 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-23 15:57:18,758 - werkzeug - INFO - 127.0.0.1 - - [23/Oct/2024 15:57:18] "GET /generate_report HTTP/1.1" 200 -
+2024-10-23 16:06:03,929 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://172.20.10.2:18000
+2024-10-23 16:06:03,929 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-23 16:06:09,241 - werkzeug - INFO - 127.0.0.1 - - [23/Oct/2024 16:06:09] "GET /generate_report HTTP/1.1" 200 -
+2024-10-23 16:08:16,959 - werkzeug - INFO - 127.0.0.1 - - [23/Oct/2024 16:08:16] "GET /generate_report HTTP/1.1" 200 -
+2024-10-23 16:08:23,335 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://172.20.10.2:18000
+2024-10-23 16:08:23,335 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-23 16:08:41,713 - werkzeug - INFO - 127.0.0.1 - - [23/Oct/2024 16:08:41] "GET /generate_report HTTP/1.1" 200 -
+2024-10-23 16:11:12,919 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://172.20.10.2:18000
+2024-10-23 16:11:12,919 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-23 16:11:15,321 - api - ERROR - Exception on /generate_report [GET]
+Traceback (most recent call last):
+  File "/Library/anaconda3/envs/env1/lib/python3.7/site-packages/flask/app.py", line 2529, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/anaconda3/envs/env1/lib/python3.7/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/anaconda3/envs/env1/lib/python3.7/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/anaconda3/envs/env1/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+TypeError: generate_chart() missing 3 required positional arguments: 'self', 'data', and 'symbol'
+2024-10-23 16:11:15,324 - werkzeug - INFO - 127.0.0.1 - - [23/Oct/2024 16:11:15] "[35m[1mGET /generate_report HTTP/1.1[0m" 500 -
+2024-10-23 16:12:40,161 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://172.20.10.2:18000
+2024-10-23 16:12:40,161 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-23 16:12:45,320 - werkzeug - INFO - 127.0.0.1 - - [23/Oct/2024 16:12:45] "GET /generate_report HTTP/1.1" 200 -
+2024-10-23 16:15:07,308 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://172.20.10.2:18000
+2024-10-23 16:15:07,308 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-23 16:15:12,171 - werkzeug - INFO - 127.0.0.1 - - [23/Oct/2024 16:15:12] "GET /generate_report HTTP/1.1" 200 -
+2024-10-23 16:16:32,751 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://172.20.10.2:18000
+2024-10-23 16:16:32,751 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-23 16:16:35,125 - yfinance - ERROR - ^GSPC: Period '10d' is invalid, must be one of ['1d', '5d', '1mo', '3mo', '6mo', '1y', '2y', '5y', '10y', 'ytd', 'max']
+2024-10-23 16:16:35,126 - __main__ - ERROR - Error fetching data for ^GSPC: No data retrieved for ^GSPC
+2024-10-23 16:16:35,126 - __main__ - ERROR - Error in generate_report endpoint: No data retrieved for ^GSPC
+2024-10-23 16:16:35,127 - werkzeug - INFO - 127.0.0.1 - - [23/Oct/2024 16:16:35] "[35m[1mGET /generate_report HTTP/1.1[0m" 500 -
+2024-10-23 16:17:15,408 - yfinance - ERROR - ^GSPC: Period '10d' is invalid, must be one of ['1d', '5d', '1mo', '3mo', '6mo', '1y', '2y', '5y', '10y', 'ytd', 'max']
+2024-10-23 16:17:15,410 - __main__ - ERROR - Error fetching data for ^GSPC: No data retrieved for ^GSPC
+2024-10-23 16:17:15,410 - __main__ - ERROR - Error in generate_report endpoint: No data retrieved for ^GSPC
+2024-10-23 16:17:15,411 - werkzeug - INFO - 127.0.0.1 - - [23/Oct/2024 16:17:15] "[35m[1mGET /generate_report HTTP/1.1[0m" 500 -
+2024-10-23 16:17:20,902 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://172.20.10.2:18000
+2024-10-23 16:17:20,902 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-23 16:17:26,124 - werkzeug - INFO - 127.0.0.1 - - [23/Oct/2024 16:17:26] "GET /generate_report HTTP/1.1" 200 -
+2024-10-23 16:23:49,884 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://172.20.10.2:18000
+2024-10-23 16:23:49,884 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-23 16:23:52,772 - werkzeug - INFO - 127.0.0.1 - - [23/Oct/2024 16:23:52] "GET /generate_report HTTP/1.1" 200 -
+2024-10-23 16:25:10,848 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://172.20.10.2:18000
+2024-10-23 16:25:10,848 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-23 16:25:15,082 - werkzeug - INFO - 127.0.0.1 - - [23/Oct/2024 16:25:15] "GET /generate_report HTTP/1.1" 200 -
+2024-10-23 16:26:54,513 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://172.20.10.2:18000
+2024-10-23 16:26:54,514 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-23 16:26:59,205 - werkzeug - INFO - 127.0.0.1 - - [23/Oct/2024 16:26:59] "GET /generate_report HTTP/1.1" 200 -
+2024-10-23 16:27:47,103 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://172.20.10.2:18000
+2024-10-23 16:27:47,103 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-23 16:27:53,279 - werkzeug - INFO - 127.0.0.1 - - [23/Oct/2024 16:27:53] "GET /generate_report HTTP/1.1" 200 -
+2024-10-23 16:28:13,111 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://172.20.10.2:18000
+2024-10-23 16:28:13,112 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-23 16:28:19,016 - werkzeug - INFO - 127.0.0.1 - - [23/Oct/2024 16:28:19] "GET /generate_report HTTP/1.1" 200 -
+2024-10-23 16:28:38,167 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://172.20.10.2:18000
+2024-10-23 16:28:38,167 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-23 16:28:42,916 - werkzeug - INFO - 127.0.0.1 - - [23/Oct/2024 16:28:42] "GET /generate_report HTTP/1.1" 200 -
+2024-10-23 16:29:00,879 - werkzeug - INFO - 127.0.0.1 - - [23/Oct/2024 16:29:00] "GET /generate_report HTTP/1.1" 200 -
+2024-10-23 16:30:21,800 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://172.20.10.2:18000
+2024-10-23 16:30:21,800 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-23 16:30:26,197 - werkzeug - INFO - 127.0.0.1 - - [23/Oct/2024 16:30:26] "GET /generate_report HTTP/1.1" 200 -
+2024-10-23 16:30:46,124 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://172.20.10.2:18000
+2024-10-23 16:30:46,124 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-23 16:30:50,519 - werkzeug - INFO - 127.0.0.1 - - [23/Oct/2024 16:30:50] "GET /generate_report HTTP/1.1" 200 -
+2024-10-23 17:10:18,607 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://172.20.10.2:18000
+2024-10-23 17:10:18,608 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-23 17:10:23,669 - __main__ - ERROR - Error getting GPT analysis: 'dict' object has no attribute 'tail'
+2024-10-23 17:10:23,693 - __main__ - ERROR - Error getting GPT analysis: 'dict' object has no attribute 'tail'
+2024-10-23 17:10:23,696 - werkzeug - INFO - 127.0.0.1 - - [23/Oct/2024 17:10:23] "GET /generate_report HTTP/1.1" 200 -
+2024-10-23 17:11:06,506 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://172.20.10.2:18000
+2024-10-23 17:11:06,506 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-23 17:11:10,955 - __main__ - ERROR - Error getting GPT analysis: 'dict' object has no attribute 'tail'
+2024-10-23 17:11:10,981 - __main__ - ERROR - Error getting GPT analysis: 'dict' object has no attribute 'tail'
+2024-10-23 17:11:10,983 - werkzeug - INFO - 127.0.0.1 - - [23/Oct/2024 17:11:10] "GET /generate_report HTTP/1.1" 200 -
+2024-10-23 17:13:06,532 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://172.20.10.2:18000
+2024-10-23 17:13:06,532 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-23 17:13:18,136 - httpx - INFO - HTTP Request: POST https://ai.liaobots.work/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-23 17:13:24,277 - httpx - INFO - HTTP Request: POST https://ai.liaobots.work/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-23 17:13:24,281 - werkzeug - INFO - 127.0.0.1 - - [23/Oct/2024 17:13:24] "GET /generate_report HTTP/1.1" 200 -
+2024-10-23 17:15:34,933 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://172.20.10.2:18000
+2024-10-23 17:15:34,933 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-10-23 17:15:51,914 - httpx - INFO - HTTP Request: POST https://ai.liaobots.work/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-23 17:16:03,331 - httpx - INFO - HTTP Request: POST https://ai.liaobots.work/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-23 17:16:03,336 - werkzeug - INFO - 127.0.0.1 - - [23/Oct/2024 17:16:03] "GET /generate_report HTTP/1.1" 200 -
+2024-10-23 17:30:41,800 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:18000
+ * Running on http://172.20.10.2:18000
+2024-10-23 17:30:41,800 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
