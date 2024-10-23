@@ -13,6 +13,7 @@ from openai import OpenAI
 import time
 import random
 from datetime import datetime
+from urllib.parse import quote
 
 app = Flask(__name__)
 
@@ -89,10 +90,10 @@ def get_cjzzd_link():
             items = data.get('data', {}).get('list', [])
             for item in items:
                 if target_title in item.get('audio_title', ''):
-                    source_id = item.get('source_id', '')
-                    if source_id:
-                        today = datetime.now().strftime("%Y-%m-%d")
-                        url = f"https://finance.caixin.com/{today}/{source_id}.html"
+                    id = item.get('id', '')
+                    if id:
+                        type_param = quote("普通文章页")
+                        url = f"https://datayi.cn/1lnZaaido8xd?id={id}&article_type=1&isHttp=0&type={type_param}&open_type=6"
                         return url
             
             page += 1
