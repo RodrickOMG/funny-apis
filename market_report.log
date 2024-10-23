@@ -301,3 +301,8 @@ TypeError: generate_chart() missing 3 required positional arguments: 'self', 'da
 2024-10-24 01:37:38,558 - werkzeug - INFO - 127.0.0.1 - - [24/Oct/2024 01:37:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
 2024-10-24 01:38:19,849 - werkzeug - INFO - 127.0.0.1 - - [24/Oct/2024 01:38:19] "[33mGET /generate_market_report HTTP/1.1[0m" 404 -
 2024-10-24 01:38:26,560 - werkzeug - INFO - 127.0.0.1 - - [24/Oct/2024 01:38:26] "GET /get_market_report HTTP/1.1" 200 -
+2024-10-24 02:02:06,126 - werkzeug - INFO - 192.168.2.15 - - [24/Oct/2024 02:02:06] "GET /get_market_report HTTP/1.1" 200 -
+2024-10-24 02:02:07,522 - werkzeug - INFO - 192.168.2.15 - - [24/Oct/2024 02:02:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-24 02:04:58,400 - werkzeug - INFO - 192.168.2.20 - - [24/Oct/2024 02:04:58] "GET /get_market_report HTTP/1.1" 200 -
+2024-10-24 02:04:58,740 - werkzeug - INFO - 192.168.2.20 - - [24/Oct/2024 02:04:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-24 02:06:55,013 - werkzeug - INFO - 192.168.2.20 - - [24/Oct/2024 02:06:55] "GET /get_market_report HTTP/1.1" 200 -
