@@ -37,8 +37,6 @@ class MarketReport:
     def __init__(self):
         self.sp500 = "^GSPC"
         self.nasdaq = "^NDX"
-        self.report_path = Path("reports")
-        self.report_path.mkdir(exist_ok=True)
     
     def get_market_data(self, symbol, period="30d"):
         """获取市场数据"""
